@@ -13,15 +13,15 @@ This repository contains a comprehensive algorithmic fairness audit and causal r
 
 ### 1. Algorithmic Fairness Audit (`Fairlearn`)
 * Evaluated group fairness metrics across sex demographics to locate historical bias leakage.
-* Tracked **5 core fairness indicators**, explicitly uncovering critical disparities in group error rates—such as **Equalized Odds** violations, False Positive Rate (FPR) deviations, and **False Negative Rate (FNR) differences**.
+* Tracked **5 core fairness indicators**, explicitly uncovering critical disparities in group error rates—such as **Equalized Odds** violations, **False Positive Rate (FPR) differences**, and **False Negative Rate (FNR) differences**.
 
 ### 2. Causal AI & Counterfactual Fairness (`DoWhy`)
-* Leveraged **`DoWhy`** to estimate the **Average Treatment Effect (ATE)** of sex on automated credit risk predictions using the `identify_effect` framework.
-* Architected a **Structural Causal Model (SCM)** to rigorously evaluate **counterfactual fairness**, isolating the exact causal pathways of protected attributes on credit classifications to ensure decision-making remains grounded in objective financial behavior.
+* Leveraged **`DoWhy`** to estimate and refute the **Average Treatment Effect (ATE)** of sex on automated credit risk predictions .
+* Architected a **Structural Causal Model (SCM)** to rigorously evaluate **counterfactual fairness**, isolating the exact causal pathways of protected attributes on credit classifications.
 
 ### 3. Uncertainty Quantification
 * Deployed a **Split Conformal Prediction** framework to quantify and map **epistemic uncertainty** across gender groups.
-* Derived exact, distribution-free prediction intervals that demonstrated hidden variances in model confidence (e.g., higher average prediction set sizes for male applicants), ensuring statistical reliability before deployment.
+* Derived exact, distribution-free prediction intervals that demonstrated hidden variances in model confidence (e.g., higher average prediction set sizes for male applicants).
 
 ---
 
