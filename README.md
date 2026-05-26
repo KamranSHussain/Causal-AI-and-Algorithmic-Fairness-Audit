@@ -48,14 +48,3 @@ To audit how confidently the model treats different demographic groups, we deplo
 
 ---
 
-## Installation & Prerequisites
-
-To set up your local environment and reproduce the audit and mitigation pipeline, ensure you have Python 3.10+ installed along with the required libraries.
-
-```bash
-# Clone the repository
-git clone [https://github.com/your-username/credit-risk-fairness-audit.git](https://github.com/your-username/credit-risk-fairness-audit.git)
-cd credit-risk-fairness-audit
-
-# Install required packages
-pip install pandas numpy scikit-learn lightgbm fairlearn shap dowhy matplotlib seaborn networkx
